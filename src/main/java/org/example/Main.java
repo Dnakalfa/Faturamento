@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String jsonFilePath = "C:\\Users\\umberto alves\\Desktop\\Faturamento\\faturamento.json";
+        String jsonFilePath = "https://github.com/Dnakalfa/Faturamento/blob/master/faturamento.json";
         String jsonData = readJsonFile(jsonFilePath);
 
         if (jsonData != null) {
